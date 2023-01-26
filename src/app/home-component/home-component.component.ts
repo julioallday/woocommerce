@@ -8,6 +8,28 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponentComponent implements OnInit {
 
   constructor() { }
+  navigationLinks = [
+    {
+      name: "Sell",
+      path: "#"
+    },
+    {
+      name: "Marketplace",
+      path: "#"
+    },
+    {
+      name: "Community",
+      path: "#"
+    },
+    {
+      name: "Develop",
+      path: "#"
+    },
+    {
+      name: "Resources",
+      path: "#"
+    }
+  ]
 
   ngOnInit(): void {
   }
